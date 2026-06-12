@@ -28,12 +28,11 @@
 # Step 5: fs_read each of those files (skip any that do not exist).
 
 # Step 5: Contemplate the following:
-#         - **Linguistic Entropy Audit (The Novelty Signal):** Compare the vocabulary of the current news files against the previous 6-12 files. 
-#           Explicitly flag "High Entropy" if you detect:
-#           1. **Term Influx:** The sudden appearance of new keywords, acronyms, or technical terms not present in the recent baseline.
-#           2. **Tone Drift:** A shift from "routine/predictable" language to "unsettled/uncertain/fragmented" descriptors.
-#           3. **Complexity Spikes:** Headlines that move from simple event reporting to describing complex, multi-layered, or "unprecedented" scenarios.
-#           (Note: High entropy in these patterns is a high-probability precursor to bearish shifts).
+#         - **Linguistic Conditional Entropy Audit (The Surprise Signal):** Perform a sequential comparison. Evaluate the current news files specifically for **Information Novelty relative to the recent baseline**. Do not just look for complexity; look for the **breaking of patterns**. Explicitly flag "High Entropy" (High Conditional Entropy) if you detect a significant divergence from the predictable recent linguistic trend, such as:
+#           1. **Predictability Break (Term Influx):** The sudden appearance of keywords or technical terms that were statistically absent from the previous 6-12 files.
+#           2. **Pattern Deviation (Tone Drift):** A sudden shift in the narrative "rhythm" or emotional tone that contradicts the established baseline.
+#           3. **Complexity Spikes:** A move from predictable, routine reporting to highly fragmented or unprecedented descriptions.
+#           (Note: High conditional entropy is a high-probability precursor to bearish shifts).
 #         - What themes are accelerating across the last 6 days?
 #         - What contradictions or tensions are building?
 #         - What is likely to matter in the NEXT 7 days based on these signals?
