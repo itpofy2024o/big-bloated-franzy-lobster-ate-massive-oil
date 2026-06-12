@@ -1,0 +1,30 @@
+{
+  "job_id": "silver-ing",
+  "job_name": "trading loop",
+  "agent_id": "trader",
+  "status": "done",
+  "timestamp": "2026-06-12T05:39:00.000Z",
+  "duration_ms": 450000,
+  "log_file": "silver_loop/silver_loop_2026-06-12_05-39.md",
+  "positions_count": 0,
+  "positions": [],
+  "eligible_assets": ["ADA", "AVAX", "BNB", "BTC", "DOGE", "ENA", "ETH", "EUR", "LINK", "NEAR", "PAXG", "PEPE", "SOL", "SUI", "TON", "TRX", "XRP", "ZEC"],
+  "analysis": [
+    {"asset":"ETH","gap":"1m","ps":0.0702,"e":0.0274,"h":0.0274,"term":0.1348,"x":0.8833,"sigma":0.0093,"deviation":0.002,"ratio":0.942,"close":1679.83,"row_count":180,"fitness":0.0003,"final_fitness":0.0003,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"ETH","gap":"3m","ps":0.2912,"e":0.0235,"h":0.0235,"term":0.1321,"x":-0.8662,"sigma":0.0092,"deviation":0.0015,"ratio":1.1205,"close":1678.35,"row_count":350,"fitness":0.0009,"final_fitness":0.0014,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"ETH","gap":"5m","ps":0.5189,"e":0.0372,"h":0.0372,"term":0.1991,"x":0.8999,"sigma":0.0085,"deviation":0.0016,"ratio":0.9764,"close":1679.21,"row_count":350,"fitness":0.0038,"final_fitness":0.0067,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"ETH","gap":"15m","ps":0.0702,"e":0.0274,"h":0.0274,"term":0.1348,"x":0.8833,"sigma":0.0093,"deviation":0.002,"ratio":0.942,"close":1679.83,"row_count":180,"fitness":0.0003,"final_fitness":0.0003,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"SOL","gap":"1m","ps":0.6474,"e":0.1211,"h":0.1205,"term":0.1249,"x":-0.6661,"sigma":0.0089,"deviation":0.005,"ratio":1.7213,"close":67.0,"row_count":350,"fitness":0.0098,"final_fitness":0.0098,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"SOL","gap":"3m","ps":0.545,"e":0.1099,"h":0.1094,"term":0.1222,"x":-0.6659,"sigma":0.0086,"deviation":0.0045,"ratio":1.7158,"close":67.01,"row_count":1200,"fitness":0.0073,"final_fitness":0.0092,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"SOL","gap":"5m","ps":0.6562,"e":0.1036,"h":0.1033,"term":0.1149,"x":-0.6631,"sigma":0.0086,"deviation":0.0045,"ratio":1.7297,"close":66.99,"row_count":550,"fitness":0.0078,"final_fitness":0.0117,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"SOL","gap":"15m","ps":0.9166,"e":0.1589,"h":0.1575,"term":0.189,"x":-0.6699,"sigma":0.0079,"deviation":0.0038,"ratio":1.7445,"close":66.97,"row_count":350,"fitness":0.0275,"final_fitness":0.0482,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"XRP","gap":"1m","ps":0.6036,"e":0.1067,"h":0.1063,"term":0.1409,"x":-0.7995,"sigma":0.0104,"deviation":0.0064,"ratio":1.2219,"close":1.1406,"row_count":550,"fitness":0.0091,"final_fitness":0.0091,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"XRP","gap":"3m","ps":0.6098,"e":0.104,"h":0.1036,"term":0.1404,"x":-0.8013,"sigma":0.0102,"deviation":0.0062,"ratio":1.2114,"close":1.1407,"row_count":550,"fitness":0.0089,"final_fitness":0.0111,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"XRP","gap":"5m","ps":0.4639,"e":0.0973,"h":0.097,"term":0.1379,"x":-0.7728,"sigma":0.0101,"deviation":0.0052,"ratio":1.3634,"close":1.1395,"row_count":1600,"fitness":0.0062,"final_fitness":0.0093,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"XRP","gap":"15m","ps":0.7228,"e":0.1691,"h":0.1676,"term":0.2312,"x":-0.7797,"sigma":0.0094,"deviation":0.0051,"ratio":1.3539,"close":1.14,"row_count":180,"fitness":0.0283,"final_fitness":0.0495,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"BTC","gap":"1m","ps":0.2671,"e":0.0228,"h":0.0228,"term":0.1205,"x":0.7485,"sigma":0.0059,"deviation":0.0023,"ratio":0.4929,"close":63510.0,"row_count":550,"fitness":0.0007,"final_fitness":0.0007,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"BTC","gap":"3m","ps":0.3017,"e":0.0208,"h":0.0208,"term":0.1234,"x":0.7386,"sigma":0.0058,"deviation":0.0021,"ratio":0.4515,"close":63525.2,"row_count":300,"fitness":0.0008,"final_fitness":0.001,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"BTC","gap":"5m","ps":0.2986,"e":0.0449,"h":0.0449,"term":0.1187,"x":-0.8911,"sigma":0.0057,"deviation":0.0021,"ratio":1.0391,"close":63502.0,"row_count":700,"fitness":0.0016,"final_fitness":0.0024,"as":0,"authority_score":0,"fast_layer":"ACTIVE"},
+    {"asset":"BTC","gap":"15m","ps":0.4329,"e":0.0291,"h":0.0291,"term":0.2007,"x":0.7307,"sigma":0.005,"deviation":0.0018,"ratio":0.4036,"close":63500.0,"row_count":180,"fitness":0.0025,"final_fitness":0.0044,"as":0,"authority_score":0,"fast_layer":"ACTIVE"}
+  ]
+}
